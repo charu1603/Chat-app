@@ -43,8 +43,8 @@ async function startClient(url) {
 }
 
 const args = {
-  host: '127.0.0.1', // Change to your host
-  port: 5500, // Change to your port
+  host: '127.0.0.1',
+  port: 5500,
 };
 
 const url = `ws://${args.host}:${args.port}/ws`;
